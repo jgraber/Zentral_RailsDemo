@@ -141,3 +141,13 @@
 
 `git commit -a -m "add image upload"`
 
+
+## Use pry as rails console
+`/add gem 'pry' to Gemfile`
+
+`bundle`
+
+`/add console block to config/application.rb`
+
+`git commit -a -m "switch to pry for rails console"`
+

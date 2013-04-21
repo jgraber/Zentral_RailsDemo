@@ -59,3 +59,6 @@ gem 'kaminari'
 # For image upload
 gem 'paperclip'
 
+# For pry as rails console
+gem 'pry'
+

@@ -55,3 +55,7 @@ end
 
 # For paging
 gem 'kaminari'
+
+# For image upload
+gem 'paperclip'
+

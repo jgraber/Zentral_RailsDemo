@@ -119,3 +119,25 @@
 
 `heroku run rake --trace db:migrate`
 
+
+## Add image upload
+`/add gem 'paperclip' to Gemfile`
+
+`bundle`
+
+`rails generate paperclip book cover`
+
+`rake db:migrate`
+
+`/add cover to book`
+
+`/add show_cover to BookHelper`
+
+`/add image selector to book form`
+
+`/add cover column to book index`
+
+`/add cover to book_params in books_controller`
+
+`git commit -a -m "add image upload"`
+

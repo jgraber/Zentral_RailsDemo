@@ -67,6 +67,7 @@ GEM
     mime-types (1.23)
     minitest (4.7.3)
     multi_json (1.7.2)
+    pg (0.15.1)
     polyglot (0.3.3)
     quiet_assets (1.0.2)
       railties (>= 3.1, < 5.0)
@@ -140,6 +141,7 @@ DEPENDENCIES
   jquery-rails
   kaminari
   less-rails
+  pg
   quiet_assets
   rack-mini-profiler
   rails (= 4.0.0.beta1)

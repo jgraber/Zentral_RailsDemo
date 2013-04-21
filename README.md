@@ -99,3 +99,23 @@
 
 `git commit -a -m "add Paging"`
 
+
+## Deploy to Heroku
+`/add pg to Gemfile and use sqlite only in dev`
+
+`/add rails version to Gemfile`
+
+`/edit environments/production.rb and set config.assets.compile = true`
+
+`bundle`
+
+`git commit -a -m "prepare deployment to Heroku"`
+
+`/usr/local/heroku/bin/heroku create`
+
+`heroku addons:add heroku-postgresql`
+
+`git push heroku master`
+
+`heroku run rake --trace db:migrate`
+

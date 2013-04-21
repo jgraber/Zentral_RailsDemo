@@ -36,3 +36,7 @@ gem 'jbuilder', '~> 1.0.1'
 
 # To use debugger
 # gem 'debugger'
+
+# For Twitter Bootstrap
+gem 'twitter-bootstrap-rails'
+gem "less-rails"

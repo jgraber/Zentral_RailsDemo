@@ -49,3 +49,15 @@
 
 `git commit -a -m "add book and author"`
 
+
+## Add MiniProfiler & dev tools
+`/add gem 'rack-mini-profiler' to Gemfile`
+
+`/add gem 'quiet_assets' to Gemfile`
+
+`/add gem 'better_errors' to Gemfile`
+
+`bundle`
+
+`git commit -a -m "add MiniProfiler & dev tools"`
+

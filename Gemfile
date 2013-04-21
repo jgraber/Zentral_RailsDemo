@@ -40,3 +40,10 @@ gem 'jbuilder', '~> 1.0.1'
 # For Twitter Bootstrap
 gem 'twitter-bootstrap-rails'
 gem "less-rails"
+
+# For MiniProfiler & dev tools
+group :development do
+  gem 'quiet_assets'
+  gem 'better_errors'
+  gem 'rack-mini-profiler'
+end

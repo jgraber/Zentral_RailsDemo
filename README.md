@@ -61,3 +61,21 @@
 
 `git commit -a -m "add MiniProfiler & dev tools"`
 
+
+## Add n:m Relations
+`rails g model authorship author:references book:references`
+
+`rake db:migrate`
+
+`/add authorship to book and author`
+
+`/add _authors_fields to book`
+
+`/add link-helpers to application_helper`
+
+`/add js helpers to application.js`
+
+`/add authors_attributes to book_params in books_controller.rb`
+
+`git commit -a -m "add n:m relationship"`
+

@@ -47,3 +47,6 @@ group :development do
   gem 'better_errors'
   gem 'rack-mini-profiler'
 end
+
+# For paging
+gem 'kaminari'

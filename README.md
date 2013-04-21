@@ -79,3 +79,23 @@
 
 `git commit -a -m "add n:m relationship"`
 
+
+## Add Paging
+`/add gem 'kaminari' to Gemfile`
+
+`bundle`
+
+`rails generate kaminari:views bootstrap`
+
+`/add paging to author & book`
+
+`/add paging to author & book controller`
+
+`/add pager to index views`
+
+`/add books to db/seed.rb`
+
+`rake db:seed`
+
+`git commit -a -m "add Paging"`
+

@@ -5,3 +5,15 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+20.times do |i|
+	b = Book.new
+	b.title = "Book #{i+1}"
+	b.save!
+end
+
+20.times do |i|
+	a = Author.new
+	a.lastname = "Author #{i+1}"
+	a.save!
+end
